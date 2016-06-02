@@ -1,17 +1,20 @@
-- Dock to the left
-- Remove icons
-- Swap Ctrl and Caps Lock
-- Download Chrome
-- Download Comand Line tools
-- Download Homebrew
-- Download Cask
-- Config cask to work with Applications folder
-- gitconfig
-- ssh config
-- vim config
-- zsh config
-- Virtualbox and images
-- Atom
-- Dropbox
-- [Link desktop to dropbox](https://github.com/cabe56/dotfiles/blob/master/link_desktop_and_dropbox.sh)
-- Set desktop as default dir for downloads
+- [ ] Dock to the left
+- [ ] Dock autohide
+- [ ] Menu autohide
+- [ ] Disable natural scroll
+- [ ] Remove icons
+- [ ] Swap Ctrl and Caps Lock
+- [ ] Download Chrome
+- [ ] Download Comand Line tools
+- [ ] Download Homebrew
+- [ ] Download Cask
+- [ ] Config cask to work with Applications folder
+- [ ] gitconfig
+- [ ] ssh config
+- [ ] vim config
+- [ ] zsh config
+- [ ] Virtualbox and images
+- [ ] Atom
+- [ ] Dropbox
+- [ ] [Link desktop to dropbox](https://github.com/cabe56/dotfiles/blob/master/link_desktop_and_dropbox.sh)
+- [ ] Set desktop as default dir for downloads
