@@ -2,5 +2,14 @@
 2. Remove icons
 3. Swap Ctrl and Caps Lock
 4. Download Chrome
-5. Download Homebrew
-6. Download Comand Line tools
+5. Download Comand Line tools
+6. Download Homebrew
+7. gitconfig
+8. ssh config
+9. vim config
+10. zsh config
+11. Virtualbox and images
+12. Atom
+13. Dropbox
+14. Link desktop to dropbox
+15. Set desktop as default dir for downloads
