@@ -2,7 +2,8 @@
 - [ ] Dock autohide
 - [ ] Menu autohide
 - [ ] Disable natural scroll
-- [ ] Remove icons
+- [ ] Remove apps from dock
+- [ ] Config Finder favorites
 - [ ] Swap Ctrl and Caps Lock
 - [ ] Download Chrome
 - [ ] Download Comand Line tools
