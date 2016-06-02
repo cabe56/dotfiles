@@ -8,6 +8,7 @@
 - [ ] Download Comand Line tools
 - [ ] Download Homebrew
 - [ ] Download Cask
+  - `brew tap caskroom/cask`
 - [ ] Config cask to work with Applications folder
 - [ ] gitconfig
 - [ ] ssh config
