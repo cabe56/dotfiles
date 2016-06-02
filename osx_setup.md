@@ -11,5 +11,5 @@
 11. Virtualbox and images
 12. Atom
 13. Dropbox
-14. Link desktop to dropbox
+14. [Link desktop to dropbox](https://github.com/cabe56/dotfiles/blob/master/link_desktop_and_dropbox.sh)
 15. Set desktop as default dir for downloads
