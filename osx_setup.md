@@ -3,6 +3,7 @@
 - [ ] Dock autohide
 - [ ] Menu autohide
 - [ ] Disable natural scroll
+- [ ] Disable Guest account
 - [ ] Remove apps from dock
 - [ ] Config Finder favorites
 - [ ] Swap Ctrl and Caps Lock
