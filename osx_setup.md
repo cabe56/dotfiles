@@ -39,3 +39,6 @@
 - [ ] ssh config
 - [ ] vim config
 - [ ] zsh config
+
+## Cmd line
+- [ ] [RVM](https://rvm.io/rvm/install)
