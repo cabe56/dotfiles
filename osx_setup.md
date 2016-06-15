@@ -7,12 +7,14 @@
 - [ ] Config Finder favorites
 - [ ] Swap Ctrl and Caps Lock
 - [ ] Comand Line tools
-- [ ] Set desktop as default dir for downloads in Chrome
 - [ ] Remove Downloads folder from Dock
 - [ ] Remove Downloads folder from Finder sidebar
+- [ ] Set wallpapers from Dropbox folder
 
 ## Apps
 - [ ] Chrome
+  - [ ] Set Desktop as default dir for downloads
+  - [ ] Chromecast Chrome extension
 - [ ] Homebrew
 - [ ] Atom
 - [ ] Download Cask
@@ -22,6 +24,14 @@
   - [ ] [Link desktop to dropbox](https://github.com/cabe56/dotfiles/blob/master/link_desktop_and_dropbox.sh)
 - [ ] Virtualbox
   - [ ] Import images
+- [ ] Slack
+- [ ] Spotify
+- [ ] [Tunnelblick](https://tunnelblick.net/)
+  - OpenVPN client
+  - Need to download `.ovpn` file
+- [ ] Caffeine
+- [ ] [uTorrent](http://www.utorrent.com/intl/en/)
+- [ ] [Heroku Toolbelt](https://toolbelt.heroku.com/)
 
 ## Config files
 - [ ] gitconfig
