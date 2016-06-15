@@ -9,6 +9,7 @@
 - [ ] Comand Line tools
 - [ ] Remove Downloads folder from Dock
 - [ ] Remove Downloads folder from Finder sidebar
+- [ ] Disable Guest account
 - [ ] Set wallpapers from Dropbox folder
 
 ## Apps
