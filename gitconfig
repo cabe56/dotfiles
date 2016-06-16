@@ -1,0 +1,44 @@
+[user]
+	name = Jose Varela
+	email = joservarelaf@gmail.com
+[github]
+  user = cabe56
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+[alias]
+  d = diff --ignore-space-at-eol -b -w --ignore-blank-lines
+  ds = diff --staged
+	st = status
+	ci = commit -m 
+	a = add
+  ap = add -p
+	pl = pull
+	ph = push
+  pf = push --force-with-lease
+  co = checkout
+  cb = checkout -b 
+  br = branch
+  b  = branch
+  rc = rebase --continue
+  update = submodule foreach git pull origin master
+	logs = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  undo = reset --hard
+  delete = reset --soft "HEAD^"
+  amend = commit -C HEAD --amend 
+  lc = show --pretty="format:" --name-only HEAD^ 
+  # Stash
+  sl = stash list
+  pop = stash pop
+  sf = !sh -c 'git stash show -p stash@{$1}' -
+  # Show what I coded today
+  day = "!sh -c 'git log --reverse --no-merges --branches=* --date=local --after=\"yesterday 11:59PM\" --author=\"`git config --get user.name`\"'"
+  clean = clean -f -d
+[credential]
+	helper = osxkeychain
+[core]
+	editor = vim
+[push]
+	default = simple
