@@ -12,6 +12,10 @@
 - [ ] Remove Apps folder from finder sidebar
 - [ ] Disable Guest account
 - [ ] Set wallpapers from Dropbox folder
+- [ ] Config Desktop view options
+  - largest icon size
+  - largest grid spacing
+  - snap to grid
 
 ## Apps
 - [ ] Chrome
