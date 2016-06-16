@@ -1,0 +1,14 @@
+atom
+dropbox
+evernote
+firefox
+google-earth
+java
+libreoffice
+rescuetime
+skype
+slack
+spectacle
+sublime-text
+utorrent
+xquartz
