@@ -12,3 +12,6 @@ spectacle
 sublime-text
 utorrent
 xquartz
+kindle
+vlc
+the-unarchiver
