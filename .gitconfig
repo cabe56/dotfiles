@@ -1,33 +1,33 @@
 [user]
-	name = Jose Varela
-	email = joservarelaf@gmail.com
+  name = Jose Varela
+  email = joservarelaf@gmail.com
 [github]
   user = cabe56
 [color]
-	branch = auto
-	diff = auto
-	interactive = auto
-	status = auto
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
 [alias]
+  st = status
   d = diff --ignore-space-at-eol -b -w --ignore-blank-lines
   ds = diff --staged
-	st = status
-	ci = commit -m 
-	a = add
+  a = add
   ap = add -p
-	pl = pull
-	ph = push
-  pf = push --force-with-lease
-  co = checkout
-  cb = checkout -b 
-  br = branch
-  b  = branch
-  rc = rebase --continue
-  update = submodule foreach git pull origin master
-	logs = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  ci = commit -m 
   undo = reset --hard
   delete = reset --soft "HEAD^"
   amend = commit -C HEAD --amend 
+  pl = pull
+  ph = push
+  pf = push --force-with-lease
+  co = checkout
+  cb = checkout -b 
+  b  = branch
+  br = branch
+  rc = rebase --continue
+  update = submodule foreach git pull origin master
+  logs = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
   lc = show --pretty="format:" --name-only HEAD^ 
   # Stash
   sl = stash list
@@ -37,8 +37,8 @@
   day = "!sh -c 'git log --reverse --no-merges --branches=* --date=local --after=\"yesterday 11:59PM\" --author=\"`git config --get user.name`\"'"
   clean = clean -f -d
 [credential]
-	helper = osxkeychain
+  helper = osxkeychain
 [core]
-	editor = vim
+  editor = vim
 [push]
-	default = simple
+  default = matching
