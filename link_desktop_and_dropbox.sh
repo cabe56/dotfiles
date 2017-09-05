@@ -1,6 +1,6 @@
 # If you already have done this in the past,
 # your Dropbox/Desktop folder will have files.
-# Create a temp backup by changin folder name
+# Create a temp backup by changing folder name
 mv -r ~/Dropbox/Desktop ~/Dropbox/Desktop.backup
 # Dropbox client will read symlink as a folder and
 # sync its contents
