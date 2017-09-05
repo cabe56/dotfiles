@@ -21,7 +21,8 @@
   
   # Remote
   pl = pull
-  ph = push
+  # Assumes push.default = current
+  ph = push -u
   pf = push --force-with-lease
   r = remote -v
   ra = remote add
@@ -51,4 +52,5 @@
 [core]
   editor = vim
 [push]
-  default = simple
+  # Always had to set-upstream; used with git push -u
+  default = current
