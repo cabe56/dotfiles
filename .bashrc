@@ -1,5 +1,8 @@
-# cd to repo root; couldn't figure out how to set in gitconfig
-alias root="cd $(git rev-parse --show-toplevel)"
+# couldn't figure out how to set in gitconfig
+function cd_to_git_repo_root() {
+  cd $(git rev-parse --show-toplevel)
+}
+alias root="cd_to_git_repo_root"
 
 # cd up
 alias ..="cd .."
