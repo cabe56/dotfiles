@@ -4,6 +4,8 @@ function cd_to_git_repo_root() {
 }
 alias root="cd_to_git_repo_root"
 
+alias c="clear"
+
 # cd up
 alias ..="cd .."
 alias ...="cd ../.."
