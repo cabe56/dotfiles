@@ -16,7 +16,7 @@ alias deploy="heroku maintenance:on -a $1; git ph $1 $2:master -f; heroku run ra
 
 # quick access to files and repos
 alias gitconfig="vi ~/.gitconfig"
-alias bashrc="vi ~/.bashrc"
+alias bashrc="vi ~/.bashrc && source ~/.bashrc"
 alias ave="cd ~/Documents/ubiqua/ave"
 alias poc="cd ~/Documents/ubiqua/poc"
 alias esb="cd ~/Documents/ubiqua/rosetta"
