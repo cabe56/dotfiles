@@ -18,6 +18,7 @@ alias l="ls -alh"
 alias h="heroku"
 alias hc="heroku run rails console -a $0"
 alias deploy="heroku maintenance:on -a $1; git ph $1 $2:master -f; heroku run rake db:migrate -a $1; heroku maintenance:off -a $1"
+alias scheduler="heroku addons:open scheduler -a $1"
 
 # quick access to files and repos
 alias gitconfig="vi ~/.gitconfig"
