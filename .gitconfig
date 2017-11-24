@@ -18,31 +18,32 @@
   b  = branch
   co = checkout
   cob = checkout -b
-  
+  stash-co = checkout stash@{0} -- $1
+
   # Remote
   pl = pull
-  # Assumes push.default = current
+  # assumes push.default == current
   ph = push -u
   pf = push --force-with-lease
   r = remote -v
   ra = remote add
-  
+
   # Undo
   undo = reset --hard
   delete = reset --soft "HEAD^"
   amend = commit -C HEAD --amend
-  
+
   # Stash
   sl = stash list
   pop = stash pop
   sf = !sh -c 'git stash show -p stash@{$1}' -
-  
+
   # Repo
   today = "!sh -c 'git log --reverse --no-merges --branches=* --date=local --after=\"yesterday 11:59PM\" --author=\"`git config --get user.name`\"'"
   update = submodule foreach git pull origin master
   logs = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-  lc = show --pretty="format:" --name-only HEAD^ 
-  
+  lc = show --pretty="format:" --name-only HEAD^
+
   # Remove
   clean = clean -f -d
   delete-tag = !git push origin :refs/tags/$1 && git tag -d $1
@@ -52,5 +53,4 @@
 [core]
   editor = vim
 [push]
-  # Always had to set-upstream; used with git push -u
   default = current
