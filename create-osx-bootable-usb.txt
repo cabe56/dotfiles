@@ -1,0 +1,7 @@
+Found in https://lifehacker.com/how-to-make-a-bootable-macos-sierra-usb-flash-drive-1786853248
+
+Assumes thumb drive is called 'USB'
+
+sudo /Applications/Install\ macOS\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/USB --applicationpath /Applications/Install\ macOS\ Sierra.app --nointeraction &&say Done
+
+Shutdown, hold Option key and boot from USB.
