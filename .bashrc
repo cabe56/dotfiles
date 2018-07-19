@@ -6,6 +6,8 @@ alias root="cd_to_git_repo_root"
 
 alias c="clear"
 
+alias killfacetime="killall -kill FaceTimeNotificationCenterService"
+
 # cd up
 alias ..="cd .."
 alias ...="cd ../.."
