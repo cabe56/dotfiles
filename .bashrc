@@ -21,6 +21,8 @@ alias h="heroku"
 alias hc="heroku run rails console -a $1"
 alias deploy="heroku maintenance:on -a $1; git ph $1 $2:master -f; heroku run rake db:migrate -a $1; heroku maintenance:off -a $1"
 alias scheduler="heroku addons:open scheduler -a $1"
+# heroku autocomplete setup
+HEROKU_AC_BASH_SETUP_PATH=/Users/varela/Library/Caches/heroku/autocomplete/bash_setup && test -f $HEROKU_AC_BASH_SETUP_PATH && source $HEROKU_AC_BASH_SETUP_PATH;
 
 # quick access to files and repos
 alias gitconfig="vi ~/.gitconfig"
