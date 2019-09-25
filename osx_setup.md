@@ -10,6 +10,7 @@
 - [ ] Enable [Full Keyboard Access](https://www.dropbox.com/s/53vje1ks06u86z9/Screenshot%202019-09-04%2010.10.37.png?dl=0) (in Keyboard - Shortcuts)
 - [ ] Delete Apps: Garage Band, iMovie, 
 - [ ] Disable iCloud defaults
+- [ ] Set Terminal default font to 18
 
 ## Apps
 - [ ] Homebrew (installs Command Line Tools)
