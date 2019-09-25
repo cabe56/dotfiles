@@ -2,11 +2,13 @@
 function cd_to_git_repo_root() {
   cd $(git rev-parse --show-toplevel)
 }
-alias root="cd_to_git_repo_root"
-
+alias root="cd_to_git_repo_root" 
 alias c="clear"
+alias g="git"
 
-alias killfacetime="killall -kill FaceTimeNotificationCenterService"
+alias hidefacetime="killall -kill FaceTimeNotificationCenterService"
+
+alias ip="ifconfig | grep 'inet 192.'"
 
 # cd up
 alias ..="cd .."
@@ -15,20 +17,16 @@ alias ....="cd ../../.."
 
 # full ls
 alias l="ls -alh"
-
+# https://stackoverflow.com/questions/1795976/can-the-unix-list-command-ls-output-numerical-chmod-permissions
+function cls() {
+  ls -l | awk '{k=0;for(i=0;i<=8;i++)k+=((substr($1,i+2,1)~/[rwx]/) \
+             *2^(8-i));if(k)printf("%0o ",k);print}'
+}
 # heroku related
 alias h="heroku"
 alias hc="heroku run rails console -a $1"
-alias deploy="heroku maintenance:on -a $1; git ph $1 $2:master -f; heroku run rake db:migrate -a $1; heroku maintenance:off -a $1"
 alias scheduler="heroku addons:open scheduler -a $1"
-# heroku autocomplete setup
-HEROKU_AC_BASH_SETUP_PATH=/Users/varela/Library/Caches/heroku/autocomplete/bash_setup && test -f $HEROKU_AC_BASH_SETUP_PATH && source $HEROKU_AC_BASH_SETUP_PATH;
+alias delete-redis="redis-cli flushall"
 
-# quick access to files and repos
-alias gitconfig="vi ~/.gitconfig"
-alias bashrc="vi ~/.bashrc && source ~/.bashrc"
-alias ave="cd ~/Documents/ubiqua/ave"
-alias poc="cd ~/Documents/ubiqua/poc"
-alias esb="cd ~/Documents/ubiqua/rosetta"
-alias exporters="cd ~/Documents/ubiqua/rosetta-python"
-alias repos="cd ~/Documents"
+# Expose local Rails server
+alias api="ngrok http 3000"
