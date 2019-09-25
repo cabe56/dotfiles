@@ -1,50 +1,40 @@
 ## OSX
-- [ ] Dock to the left
-- [ ] Dock autohide
-- [ ] Menu autohide
-- [ ] Disable natural scroll
-- [ ] Remove apps from dock
-- [ ] Config Finder favorites
 - [ ] Swap Ctrl and Caps Lock
-- [ ] Comand Line tools
-- [ ] Remove Downloads folder from Dock
-- [ ] Remove Downloads folder from Finder sidebar
-- [ ] Remove Apps folder from finder sidebar
-- [ ] Disable Guest account
-- [ ] Set wallpapers from Dropbox folder
-- [ ] Config Desktop view options
-  - largest icon size
-  - largest grid spacing
-  - snap to grid
-- [ ] Enable [Full Keyboard Access](https://www.dropbox.com/s/53vje1ks06u86z9/Screenshot%202019-09-04%2010.10.37.png?dl=0)
+- [ ] Remove capitalize and correct spelling automatically
+- [ ] Disable Guest account (no longer needed, disabled by default)
+- [ ] Dock: left, auto hide
+- [ ] General: Automatically hide the menu bar
+- [ ] Trackpad: Disable natural scroll, remove Launchpad
+- [ ] Remove apps and folders from Dock
+- [ ] Config Desktop view options: largest icon size and grid spacing; snap to grid; remove icon preview
+- [ ] Enable [Full Keyboard Access](https://www.dropbox.com/s/53vje1ks06u86z9/Screenshot%202019-09-04%2010.10.37.png?dl=0) (in Keyboard - Shortcuts)
+- [ ] Delete Apps: Garage Band, iMovie, 
+- [ ] Disable iCloud defaults
 
 ## Apps
-- [ ] Chrome
-  - [ ] Set Desktop as default dir for downloads
-  - [ ] Chromecast Chrome extension
-- [ ] Homebrew
-- [ ] Atom
-- [ ] Download Cask
-  - `brew tap caskroom/cask`
-  - [ ] Config cask to work with Applications folder
-- [ ] Dropbox
-  - [ ] [Link desktop to dropbox](https://github.com/cabe56/dotfiles/blob/master/link_desktop_and_dropbox.sh)
-- [ ] Virtualbox
-  - [ ] Import images
-- [ ] Slack
-- [ ] Spotify
-- [ ] [Tunnelblick](https://tunnelblick.net/)
-  - OpenVPN client
-  - Need to download `.ovpn` file
-- [ ] Caffeine
-- [ ] [uTorrent](http://www.utorrent.com/intl/en/)
-- [ ] [Heroku Toolbelt](https://toolbelt.heroku.com/)
+- [ ] Homebrew (installs Command Line Tools)
+- [ ] Cask (`brew tap caskroom/cask`)
+- [ ] Install casks:
+```brew cask install \
+      amphetamine \
+      dropbox \
+      google-chrome \
+      notion \
+      slack \
+      spotify \
+      superhuman \
+      1password \
+      uTorrent
+      vlc \
+      zoom
+```
+- [ ] Heroku (`brew install heroku/brew/heroku` and follow instructions to install autocomplete)
+- [ ] Enable 1Password Chrome Extension
+- [ ] Set Chromecast button as 'Always visible'
+- [ ] [RVM](https://rvm.io/rvm/install)
 
 ## Config files
 - [ ] gitconfig
-- [ ] ssh config
-- [ ] vim config
-- [ ] zsh config
+- [ ] bashrc
+- [ ] bash_profile
 
-## Cmd line
-- [ ] [RVM](https://rvm.io/rvm/install)
