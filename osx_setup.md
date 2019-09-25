@@ -15,7 +15,8 @@
 - [ ] Homebrew (installs Command Line Tools)
 - [ ] Cask (`brew tap caskroom/cask`)
 - [ ] Install casks:
-```brew cask install \
+```bash
+  brew cask install \
       amphetamine \
       dropbox \
       google-chrome \
