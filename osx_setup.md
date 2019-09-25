@@ -28,7 +28,7 @@
       1password \
       uTorrent
       vlc \
-      zoom
+      zoomus
 ```
 - [ ] Heroku (`brew install heroku/brew/heroku` and follow instructions to install autocomplete)
 - [ ] Enable 1Password Chrome Extension
