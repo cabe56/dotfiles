@@ -29,7 +29,7 @@
   ra = remote add
 
   # Undo
-  undo = reset --hard
+  undo-confirm = reset --hard
   delete = reset --soft "HEAD^"
   amend = commit -C HEAD --amend
 
@@ -40,6 +40,7 @@
 
   # Repo
   today = "!sh -c 'git log --reverse --no-merges --branches=* --date=local --after=\"yesterday 11:59PM\" --author=\"`git config --get user.name`\"'"
+  yesterday = "!sh -c 'git log --reverse --no-merges --branches=* --date=local --after=\"yesterday 12:00AM\" --author=\"`git config --get user.name`\"'"
   update = submodule foreach git pull origin master
   logs = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
   lc = show --pretty="format:" --name-only HEAD^
