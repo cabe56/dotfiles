@@ -1,5 +1,6 @@
 ## OSX
 - [ ] Swap Ctrl and Caps Lock
+- [ ] Swap screenshot commands so copy to clipboard is deafault
 - [ ] Remove capitalize and correct spelling automatically
 - [ ] Disable Guest account (no longer needed, disabled by default)
 - [ ] Dock: left, auto hide
@@ -37,6 +38,6 @@
 
 ## Config files
 - [ ] gitconfig
-- [ ] bashrc
-- [ ] bash_profile
+- [ ] zhrc
+- [ ] zhc_profile
 
